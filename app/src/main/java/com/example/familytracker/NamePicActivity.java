@@ -61,7 +61,7 @@ public class NamePicActivity extends AppCompatActivity {
             myIntent.putExtra("sharingCode","false");
             myIntent.putExtra("code",code);
             myIntent.putExtra("imageUri",resultUri);
-
+            startActivity(myIntent);
         }
         else
         {

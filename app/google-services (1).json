@@ -8,12 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:218372197699:android:ea53504feb058b188b33f6",
+        "mobilesdk_app_id": "1:218372197699:android:e49d3eb50f1d4a9c8b33f6",
         "android_client_info": {
           "package_name": "com.example.familytracker"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "218372197699-13ogcmfcrb1sdq8g0as3v3or7t2biue5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.familytracker",
+            "certificate_hash": "998a5e72a5e28fe1afd75a8ed7b1fbdde8c68f69"
+          }
+        },
         {
           "client_id": "218372197699-5eoco10c6u7ue3ollegug32ql797rhgu.apps.googleusercontent.com",
           "client_type": 3
