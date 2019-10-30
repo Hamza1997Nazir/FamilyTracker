@@ -77,7 +77,9 @@ public class InviteCodeActivity extends AppCompatActivity {
 
 
                                                 Toast.makeText(getApplicationContext(),"User Registered Successfully",Toast.LENGTH_SHORT).show();
-
+                                                finish();
+                                                Intent myIntent = new Intent(InviteCodeActivity.this,MyNavigationActivity.class);
+                                                startActivity(myIntent);
                                             }
                                             else
                                             {

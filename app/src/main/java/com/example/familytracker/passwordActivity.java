@@ -32,6 +32,7 @@ public class passwordActivity extends AppCompatActivity {
             myIntent.putExtra("email",email);
             myIntent.putExtra("password",pass_4.getText().toString());
             startActivity(myIntent);
+            finish();
         }
         else
         {

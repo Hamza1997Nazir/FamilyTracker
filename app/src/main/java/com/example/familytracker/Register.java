@@ -50,6 +50,7 @@ public class Register extends AppCompatActivity {
                                 Intent myIntent = new Intent(Register.this,passwordActivity.class);  // moving to password screen
                                 myIntent.putExtra("email",email_3.getText().toString()); // sending email as well
                                 startActivity(myIntent); // go !!! to new screen - password
+                                finish();
                             }
                             else
                             {
